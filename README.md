@@ -26,9 +26,9 @@ are hard-coded in the notebook itself.
    (Γ–X–W–X′–K–Γ–L) as a sanity check.
 3. Implements the first-order TDS intensity
 
-   $$
+   ```math
    I_1^{TDS}(\mathbf{q}) =  \frac{N\hbar f(\mathbf{q})^2 e^{-2M(\mathbf{q})}}{4\mu} \sum_{\mathbf{k}}\left[\sum_j\frac{1}{\omega_{\mathbf{k},j}}\coth\left(\frac{\hbar\omega_{\mathbf{k},j}}{2k_BT}\right) |2\pi\mathbf{q}\cdot\mathbf{\hat{e}}_{\mathbf{k},j}|^2\right] _{\mathbf{k}=\mathbf{q}\pm \mathbf{g_q}}
-   $$
+   ```
 
    with the Debye-Waller factor following Sears & Shelley (1991),
    $2W = 2B(\sin\theta/\lambda)^2$.
