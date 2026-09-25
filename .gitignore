@@ -1,0 +1,59 @@
+# Comments start with #
+
+# Ignore a specific file
+.env
+secrets.json
+
+# Ignore a folder (and everything inside it)
+node_modules/
+build/
+dist/
+
+# Ignore all files with an extension
+*.log
+*.tmp
+*.mp4
+*.npy
+*.pkl
+*.gif
+*.png
+*.tif
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Exception: track this file even though *.log is ignored
+!important.log# Comments start with #
+
+# Ignore a specific file
+.env
+secrets.json
+
+# Ignore a folder (and everything inside it)
+node_modules/
+build/
+dist/
+
+# Ignore all files with an extension
+*.log
+*.tmp
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Exception: track this file even though *.log is ignored
+!important.log
+
+# Python cache
+__pycache__/
+*.py[cod]
